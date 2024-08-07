@@ -3,6 +3,7 @@ import Home from "./Pages/Home"
 import Items from "./Pages/Items"
 import Login from "./Pages/Login"
 import Register from "./Pages/Register"
+import Dashboard from "./Pages/Dashboard"
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/items" element={<Items/>}/>
+      <Route path="/dashboard" element={<Dashboard/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/register" element={<Register/>}/>
     </Routes>

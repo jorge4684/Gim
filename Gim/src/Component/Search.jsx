@@ -27,16 +27,16 @@ const SearchComponent = () => {
   );
 
   return (
-    <div>
+    <div className=''>
       <input
         type="text"
         placeholder="Buscar..."
         value={searchTerm}
         onChange={handleSearchChange}
-         className='rounded-lg w-96 h-8 font-semibold text-zinc-950 relative'
+         className='hidden sm:flex rounded-lg w-96 h-8 font-semibold text-zinc-950 relative'
          
       />
-      <CiSearch className='absolute top-8 ml-[350px]'/>
+      <CiSearch className='hidden sm:flex absolute top-8 ml-[350px] text-red-600'/>
       <ul>
         {filteredData.map((item, index) => (
           <li key={index}>{item}</li>

@@ -17,22 +17,32 @@ function Register() {
             <input
               type="text"
               placeholder="first name"
-              className="w-72 h-8 bg-transparent border border-gray-400"
+              className="w-72 h-8 bg-transparent border border-gray-400 rounded-md"
             />
             <input
               type="text"
               placeholder="last name"
-              className="w-72 h-8 mt-4 bg-transparent border border-gray-400"
+              className="w-72 h-8 mt-4 bg-transparent border border-gray-400 rounded-md"
             />
             <input
               type="email"
               placeholder="emal"
-              className="w-72 h-8 mt-4 bg-transparent border border-gray-400"
+              className="w-72 h-8 mt-4 bg-transparent border border-gray-400 rounded-md"
             />
             <input
               type="password"
               placeholder="password"
-              className="w-72 h-8 mt-4 bg-transparent border border-gray-400"
+              className="w-72 h-8 mt-4 bg-transparent border border-gray-400 rounded-md"
+            />
+            <input
+              type="text"
+              placeholder="address"
+              className="w-72 h-8 mt-4 bg-transparent border border-gray-400 rounded-md"
+            />
+            <input
+              type="number"
+              placeholder="phone"
+              className="w-72 h-8 mt-4 bg-transparent border border-gray-400 rounded-md"
             />
             <buttom className="flex w-72 mt-4 h-10 rounded-lg text-center items-center place-content-center text-white bg-red-700">
               Register
